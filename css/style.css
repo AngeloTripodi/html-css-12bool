@@ -10,7 +10,7 @@
 
 [class*="col"] > .row{
     padding: 15px;
-    height: 100px;
+    height: 100%;
 }
 
 [class*="col"] {
@@ -18,7 +18,7 @@
     border: 2px solid white;
 }
 
-[class*="col"] > .row > [class*="col"] {
+.nested > [class*="col"] {
     background-color: rgb(25, 201, 25);
     border: 1px solid blue;
     padding: 1rem;
