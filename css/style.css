@@ -3,3 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.row{
+    height: 60px;
+}
+
+[class*="col"] > .row{
+    padding: 15px;
+    height: 100px;
+}
+
+[class*="col"] {
+    background-color: blue;
+    border: 2px solid white;
+}
+
+[class*="col"] > .row > [class*="col"] {
+    background-color: rgb(25, 201, 25);
+    border: 1px solid blue;
+    padding: 1rem;
+    height: 100%;
+}
+
+[class*="col"] span{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+
