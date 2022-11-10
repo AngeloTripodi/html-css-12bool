@@ -22,7 +22,7 @@
     border: 2px solid white;
 }
 
-[class*="col"] > .row > [class*="col"] {
+.nested > [class*="col"] {
     background-color: rgb(25, 201, 25);
     border: 1px solid blue;
 }
